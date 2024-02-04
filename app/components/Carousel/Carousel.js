@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./carousel.module.css";
-import Image from 'next/image'
-import { imagesData1, imagesData2 } from './data'
+import Image from "next/image";
+import { imagesData1, imagesData2 } from "./data";
 
 const Carousel = () => {
   return (
@@ -10,7 +10,12 @@ const Carousel = () => {
         <div className={styles.slidetrackone}>
           {imagesData1.map((image, index) => (
             <div key={index} className={styles.slide}>
-              <Image src={image} alt={`Image ${image}`} placeholder='blur' />
+              <Image
+                priority
+                src={image}
+                alt={`Image ${image}`}
+                placeholder="blur"
+              />
             </div>
           ))}
         </div>
@@ -23,7 +28,7 @@ const Carousel = () => {
               <Image
                 src={image}
                 alt={`Image ${image}`}
-                placeholder='blur'
+                placeholder="blur"
                 priority
               />
             </div>
@@ -31,7 +36,7 @@ const Carousel = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Carousel;
