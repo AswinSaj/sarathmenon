@@ -1,10 +1,10 @@
 export const data = [
   {
     id: 1,
-    title: 'The Air You Breathe',
+    title: "The Air You Breathe",
     poem: (
       <>
-        <p>The air you breathe, The air you breathe</p>
+        <p>The air you breathe</p>
         <p>And the curve of your smile</p>
         <p>The fall of your hair</p>
         <p>And the blush on your cheeks</p>
@@ -53,7 +53,7 @@ export const data = [
   },
   {
     id: 2,
-    title: 'You',
+    title: "You",
     poem: (
       <>
         <p>This is for you</p>
@@ -94,7 +94,7 @@ export const data = [
   },
   {
     id: 3,
-    title: 'Wrinkles',
+    title: "Wrinkles",
     poem: (
       <>
         <p>I was a boy and tiny</p>
@@ -141,7 +141,7 @@ export const data = [
   },
   {
     id: 4,
-    title: 'Sleep',
+    title: "Sleep",
     poem: (
       <>
         <p>How do you sleep?</p>
@@ -203,7 +203,7 @@ export const data = [
   },
   {
     id: 5,
-    title: 'Life',
+    title: "Life",
     poem: (
       <>
         <p>Young Lola asked her grandfather,</p>
@@ -237,7 +237,7 @@ export const data = [
   },
   {
     id: 6,
-    title: 'Sunset',
+    title: "Sunset",
     poem: (
       <>
         <p>The sun was setting</p>
@@ -309,7 +309,7 @@ export const data = [
   },
   {
     id: 7,
-    title: 'Rain',
+    title: "Rain",
     poem: (
       <>
         <p>When I was woken up</p>
@@ -394,7 +394,7 @@ export const data = [
   },
   {
     id: 8,
-    title: 'Always',
+    title: "Always",
     poem: (
       <>
         <p>Since when have we known each other?</p>
@@ -460,7 +460,7 @@ export const data = [
   },
   {
     id: 9,
-    title: 'My friend Tony',
+    title: "My friend Tony",
     poem: (
       <>
         <p>I watched my friend Tony</p>
@@ -507,7 +507,7 @@ export const data = [
   },
   {
     id: 10,
-    title: 'Blood of God',
+    title: "Blood of God",
     poem: (
       <>
         <p>I bleed from the sky</p>
@@ -534,7 +534,7 @@ export const data = [
   },
   {
     id: 11,
-    title: '7 Minutes',
+    title: "7 Minutes",
     poem: (
       <>
         <p>My friends have come</p>
@@ -571,7 +571,7 @@ export const data = [
   },
   {
     id: 12,
-    title: 'The Endless Hours',
+    title: "The Endless Hours",
     poem: (
       <>
         <p>When the pillows crumble</p>
@@ -605,20 +605,20 @@ export const data = [
       </>
     ),
   },
-]
+];
 
-import poem1 from '/public/Images/poem/img_1.jpg'
-import poem2 from '/public/Images/poem/img_2.jpg'
-import poem3 from '/public/Images/poem/img_3.jpg'
-import poem4 from '/public/Images/poem/img_4.jpg'
-import poem5 from '/public/Images/poem/img_5.jpg'
-import poem6 from '/public/Images/poem/img_6.jpg'
-import poem7 from '/public/Images/poem/img_7.jpg'
-import poem8 from '/public/Images/poem/img_8.jpg'
-import poem9 from '/public/Images/poem/img_9.jpg'
-import poem10 from '/public/Images/poem/img_10.jpg'
-import poem11 from '/public/Images/poem/img_11.jpg'
-import poem12 from '/public/Images/poem/img_12.jpg'
+import poem1 from "/public/Images/poem/img_1.jpg";
+import poem2 from "/public/Images/poem/img_2.jpg";
+import poem3 from "/public/Images/poem/img_3.jpg";
+import poem4 from "/public/Images/poem/img_4.jpg";
+import poem5 from "/public/Images/poem/img_5.jpg";
+import poem6 from "/public/Images/poem/img_6.jpg";
+import poem7 from "/public/Images/poem/img_7.jpg";
+import poem8 from "/public/Images/poem/img_8.jpg";
+import poem9 from "/public/Images/poem/img_9.jpg";
+import poem10 from "/public/Images/poem/img_10.jpg";
+import poem11 from "/public/Images/poem/img_11.jpg";
+import poem12 from "/public/Images/poem/img_12.jpg";
 
 export const poemImages = [
   poem1,
@@ -633,4 +633,4 @@ export const poemImages = [
   poem10,
   poem11,
   poem12,
-]
+];
