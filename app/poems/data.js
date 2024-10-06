@@ -309,6 +309,63 @@ export const data = [
   },
   {
     id: 7,
+    title: "Ties",
+    poem: (
+      <>
+        <p>We make a knot</p>
+        <p>Sure or not</p>
+        <p>If it is worth a lot</p>
+        <br />
+
+        <p>Inevitable it is to knot</p>
+        <p>Even a simple thought</p>
+        <p>When you are caught</p>
+        <br />
+
+        <p>In the midst of a lot</p>
+        <p>We lot pray a lot</p>
+        <p>For that clot to unknot</p>
+        <br />
+
+        <p>Tie not a knot</p>
+        <p>To those who do not</p>
+        <p>Know your thought</p>
+        <br />
+
+        <p>Tie not a knot</p>
+        <p>Cold or hot</p>
+        <p>To anything you got</p>
+        <br />
+
+        <p>To untie a knot</p>
+        <p>We plot a lot</p>
+        <p>Even at a dot</p>
+        <br />
+
+        <p>To untie a knot</p>
+        <p>With heads so hot</p>
+        <p>We jot our thought</p>
+        <br />
+
+        <p>To those who knot</p>
+        <p>Lying on a cot</p>
+        <p>Try to do not</p>
+        <br />
+
+        <p>If you pour more thought</p>
+        <p>Even the roots will rot</p>
+        <p>At the end of a pot</p>
+        <br />
+
+        <p>Tie not a knot</p>
+        <p>Yet we know not</p>
+        <p>A life free of knots</p>
+      </>
+    ),
+  },
+
+  {
+    id: 8,
     title: "Rain",
     poem: (
       <>
@@ -393,7 +450,7 @@ export const data = [
     ),
   },
   {
-    id: 8,
+    id: 9,
     title: "Always",
     poem: (
       <>
@@ -459,7 +516,7 @@ export const data = [
     ),
   },
   {
-    id: 9,
+    id: 10,
     title: "My friend Tony",
     poem: (
       <>
@@ -506,7 +563,7 @@ export const data = [
     ),
   },
   {
-    id: 10,
+    id: 11,
     title: "Blood of God",
     poem: (
       <>
@@ -533,7 +590,7 @@ export const data = [
     ),
   },
   {
-    id: 11,
+    id: 12,
     title: "7 Minutes",
     poem: (
       <>
@@ -570,7 +627,7 @@ export const data = [
     ),
   },
   {
-    id: 12,
+    id: 13,
     title: "The Endless Hours",
     poem: (
       <>
@@ -619,6 +676,7 @@ import poem9 from "/public/Images/poem/img_9.jpg";
 import poem10 from "/public/Images/poem/img_10.jpg";
 import poem11 from "/public/Images/poem/img_11.jpg";
 import poem12 from "/public/Images/poem/img_12.jpg";
+import poem13 from "/public/Images/poem/img_13.jpg";
 
 export const poemImages = [
   poem1,
@@ -633,4 +691,5 @@ export const poemImages = [
   poem10,
   poem11,
   poem12,
+  poem13,
 ];
